@@ -1,0 +1,24 @@
+public class arithmetic {
+    public static void main(String[] args)
+    {
+        // example 1
+        int x = 15;
+        int y = 12;
+        int z = x/y;
+        System.out.println(z);
+
+        //example 2
+        int a = 10;
+        int b = 6;
+        double c = a/b;
+        System.out.println(c);
+
+        // example 3
+        double p = 30.0;
+        double q = 20.0;
+        double r = p/q;
+        System.out.println(r);
+
+
+    }
+}
