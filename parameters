@@ -1,0 +1,17 @@
+import java.util.*;
+public class Source {
+
+   public static void main(String[] args) {
+
+       int length,breadth;
+       Scanner input = new Scanner(System.in);
+       System.out.println("Enter the number 1");
+       length=input.nextInt();
+        System.out.println("Enter the number 2");
+       breadth=input.nextInt();
+       if (length==breadth)
+        System.out.println("square");
+       else
+         System.out.println("rectangle");
+   }
+}
