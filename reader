@@ -1,0 +1,19 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+class reader {
+   public static void main(String[] args) {
+       System.out.print("Write :");
+       BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
+       
+       try {
+           String inData;
+           inData = stdin.readLine();
+
+           System.out.print("You wrote :" + inData);
+       } catch (Exception e) {
+         System.out.print(e);
+       }
+   }
+}
