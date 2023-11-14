@@ -1,0 +1,39 @@
+public class encapsulate {
+    private String Name;
+    private int RollNumber;
+    private int age;
+
+    public String getName() {
+        return Name;
+    }
+    public int getRollNumber() {
+        return RollNumber;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setName(String newname) {
+        Name = newname;
+    }
+    public void setRollNumber(int newrollNumber) {
+        RollNumber = newrollNumber;
+    }
+    public void setAge(int newage) {
+        age = newage;
+    }
+}
+class Encapsulation
+{
+    public static void main(String[] args)
+    {
+        encapsulate obj = new encapsulate();
+
+        obj.setName("Hrithiket");
+        obj.setRollNumber(06);
+        obj.setAge(22);
+
+        System.out.println("Student Name:" + obj.getName());
+        System.out.println("Student Rollnumber:" + obj.getRollNumber());
+        System.out.println("Student Age:" + obj.getAge());
+    }
+}
