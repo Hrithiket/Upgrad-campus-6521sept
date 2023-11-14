@@ -1,0 +1,27 @@
+abstract class Fourwheeler
+{
+    abstract void Car();
+}
+class BMW extends Fourwheeler
+{
+    public void Car() {
+        System.out.println("BMW Car");
+    }
+}
+class Mercedes extends Fourwheeler
+{
+    public void Car()
+    {
+        System.out.println("Mercedes Car");
+    }
+}
+class abstracttest
+{
+    public static void main(String[] args)
+    {
+        BMW b1 = new BMW();
+        b1.Car();
+        Mercedes m1 = new Mercedes();
+        m1.Car();
+    }
+}
