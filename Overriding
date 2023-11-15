@@ -1,0 +1,45 @@
+class parent
+{
+    private void s1()
+    {
+        System.out.println("Try to override s1()");
+    }
+    protected void s2()
+    {
+        System.out.println("This is override method s2() from parent");
+    }
+}
+class child extends parent
+{
+    private void s1()
+    {
+        System.out.println("Try to override m1()");
+    }
+    @Override
+    public void s2()
+    {
+        System.out.println("This is override method m2() from child");
+    }
+}
+class subclass extends parent
+{
+    private void s1()
+    {
+        System.out.println("Try to override n1()");
+    }
+    protected void s2()
+    {
+        System.out.println("This is overide method n2() from subclass");
+    }
+}
+class Overriding {
+    public static void main(String[] args)
+    {
+        parent obj1 = new parent();
+        obj1.s2();
+        parent obj2 = new child();
+        obj2.s2();
+        parent obj3 = new subclass();
+        obj3.s2();
+    }
+}
