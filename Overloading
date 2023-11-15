@@ -1,0 +1,23 @@
+class Multiplication
+{
+      static int Multiply(int a, int b)
+    {
+        return a * b;
+    }
+    static float Multiply(float a, float b, float c)
+    {
+        return a * b * c;
+    }
+    static double Multiply(double a, double b, double c, double d)
+    {
+        return a*b*c*d;
+    }
+}
+class Overloading {
+    public static void main(String[] args)
+    {
+        System.out.println(Multiplication.Multiply(2, 4));
+        System.out.println(Multiplication.Multiply(2.5f, 7.8f, 3.5f));
+        System.out.println(Multiplication.Multiply(5.20,7.55,10.03,12.34));
+    }
+}
