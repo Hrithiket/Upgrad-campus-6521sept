@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Arraylist1 {
+    public static void main(String[] args)
+    {
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("Hrithiket");
+        list.add("Durgesh");
+        list.add("Rohit");
+        list.add("Omkar");
+        System.out.println(list);
+        //Inserting "Sahil" at index 2
+        list.add(2,"Sahil");
+        //Inserting "Nikhil" at index 3
+        list.add(3, "Nikhil");
+    System.out.println(list);
+    }
+}
