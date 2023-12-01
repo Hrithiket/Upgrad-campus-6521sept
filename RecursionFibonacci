@@ -1,0 +1,18 @@
+public class RecursionFibonacci
+{
+    static int getFibo(int num)
+    {
+        if(num <= 1)
+        {
+            return num;
+        }
+        else
+        {
+            return getFibo(num - 1) + getFibo(num - 2);
+        }
+    }
+    public static void main(String[] args)
+    {
+        System.out.println("Sum of Fibonacci numbers: " +getFibo(15));
+    }
+}
