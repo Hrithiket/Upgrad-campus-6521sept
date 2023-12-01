@@ -1,0 +1,28 @@
+import java.lang.*;
+import java.util.*;
+
+class BigOmega{
+
+    static void print(int a[], int n)
+    {
+        for(int i = 0; i < n; i++)
+        {
+            for(int j = 0; j < n; j++)
+            {
+                if (i != j)
+                    System.out.println(a[i] + " " + a[j]);
+            }
+        }
+    }
+    public static void main(String[] args)
+    {
+
+        int a[] = { 1, 2 };
+
+        int n = a.length;
+
+        print(a, n);
+    }
+}
+
+
