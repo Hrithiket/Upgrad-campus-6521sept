@@ -1,0 +1,26 @@
+import java.util.*;
+public class queuelinkedlist
+{
+    public static void main(String[] args)
+    {
+        Queue<String> q = new LinkedList<String>();
+
+        q.add("Sachin");
+        q.add("Hrithiket");
+        q.add("Rohit");
+        q.add("Omkar");
+        q.add("Durgesh");
+
+        System.out.println("Elements in Queue:"+q);
+
+        System.out.println("Removed element: "+q.remove());
+
+        System.out.println("Head: "+q.element());
+
+        System.out.println("poll(): "+q.poll());
+
+        System.out.println("peek(): "+q.peek());
+
+        System.out.println("Elements in Queue:"+q);
+    }
+}
