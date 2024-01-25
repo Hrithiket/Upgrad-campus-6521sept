@@ -1,0 +1,28 @@
+import java.util.Hashtable;
+
+public class RemoveFromHashTable {
+
+    public static void main(String[] args) {
+        // Declare a new hashtable
+        Hashtable<Integer, String> hashtable = new Hashtable<>();
+
+        // Adding entries to hashtable
+        hashtable.put(1, "Vivek");
+        hashtable.put(2, "Rahul");
+        hashtable.put(3, "Siddhu");
+        hashtable.put(4, "Siddhu");
+        hashtable.put(5, "Siddhu");
+        hashtable.put(6, "Charlie");
+        hashtable.put(7, "Sagar");
+
+        System.out.println("Initial Hashtable : " + hashtable);
+
+        // Remove the hashtable entry with key 3
+        hashtable.remove(4);
+        hashtable.remove(6);
+
+        // Final Hashtable
+        System.out.println("Updated Hashtable : " + hashtable);
+    }
+}
+
