@@ -1,0 +1,19 @@
+import java.util.Hashtable;
+
+public class HashtableAdd
+{
+    public static void main(String[] args)
+    {
+        // Create a Hashtable object.
+
+        Hashtable<String, Integer> ht = new Hashtable<>();
+
+        ht.put("Hrithiket", 20);
+        ht.put("Omkar", 30);
+        ht.put("Rohit", 25);
+        ht.put("Durgesh", 15);
+        ht.put("Rohan", 40);
+
+        System.out.println("Original entries of hash table: " + ht);
+    }
+}
