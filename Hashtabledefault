@@ -1,0 +1,19 @@
+import java.util.*;  
+class Hashtabledefault{  
+ public static void main(String args[])
+{  
+    Hashtable<Integer,String> map=new Hashtable<Integer,String>();          
+     map.put(001,"Hrithiket");    
+     map.put(002,"Shivam");   
+     map.put(003,"Gaurav");    
+     map.put(005,"Aniket");    
+
+     System.out.println("Initial Map: "+map);  
+
+     map.putIfAbsent(004,"Kuldeep");  
+     System.out.println("Updated Map: "+map);  
+
+     map.putIfAbsent(006,"Shashi");  
+     System.out.println("Updated Map: "+map);  
+ }  
+}  
